@@ -1,5 +1,5 @@
 def parrot(str)
-  if str.empty?
+  if str == nil
     puts "Squawk!"
     return "Squawk!"
   else
